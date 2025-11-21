@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+geopy
+sqlite3-bro
