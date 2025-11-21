@@ -19,7 +19,7 @@ It connects help requests with available volunteers using fairness, explainabili
 Clone the repository and set up a virtual environment:
 
 ```bash
-git clone https://github.com/<your-username>/NeighbourhoodCare.git
+git clone https://github.com/vishnu-prasad-g-s/NeighbourhoodCare.git
 cd NeighbourhoodCare/backend
 
 python3 -m venv venv
