@@ -1,1 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NeighbourhoodCare - Volunteer Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Register as Volunteer</h2>
+  <form action="/volunteer" method="post">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="text" name="skills" placeholder="Skills (e.g., groceries, medicine)" required><br>
+    <input type="number" name="radius" placeholder="Travel Radius (km)" required><br>
+    <select name="availability">
+      <option value="available">Available</option>
+      <option value="busy">Busy</option>
+    </select><br>
+    <button type="submit">Register</button>
+  </form>
+</body>
+</html>
 
